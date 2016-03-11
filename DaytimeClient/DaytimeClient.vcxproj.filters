@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sync">
+      <UniqueIdentifier>{3d5dcfd6-0e87-4994-b82e-5ebfc4a145dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncUdp">
+      <UniqueIdentifier>{0dfafdef-a833-483f-acfd-f04431f8846c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\Client.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncUdp\Client.h">
+      <Filter>AsyncUdp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DaytimeClient.cpp" />
+    <ClCompile Include="Sync\Client.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncUdp\Client.cpp">
+      <Filter>AsyncUdp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

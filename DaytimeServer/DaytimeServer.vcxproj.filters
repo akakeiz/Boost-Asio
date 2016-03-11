@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sync">
+      <UniqueIdentifier>{dd0e8f7c-03a3-489f-b0eb-d065dd0a4e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Async">
+      <UniqueIdentifier>{968af195-0947-4d1b-86f0-b7cd505ffa40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncUdp">
+      <UniqueIdentifier>{106e6707-e7b4-42fb-9d8d-8849b251f0dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\Server.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Async\Server.h">
+      <Filter>Async</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncUdp\Server.h">
+      <Filter>AsyncUdp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DaytimeServer.cpp" />
+    <ClCompile Include="Sync\Server.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Async\Server.cpp">
+      <Filter>Async</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncUdp\Server.cpp">
+      <Filter>AsyncUdp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
